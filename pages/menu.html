@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/menu.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="/src/logo.png" alt="">
+                <h1>MENU</h1>
+            </div>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li class="active">Menu</li>
+                <li><a href="https://restu-aqiqah.blogspot.com">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="shape first"></div>
+            <div class="shape second"></div>
+            <div class="shape third"></div>
+            <div class="grid-container">
+                <div class="grid">
+                    <img src="/src/menu-1.jpg" alt="">
+                    <a href="https://api.whatsapp.com/send?phone=+6281286882806">
+                    <button>
+                        ORDER SEKARANG
+                    </button>
+                 </a>
+                </div>
+
+                <div class="grid">
+                    <img src="/src/menu-2.jpg" alt="">
+                    <a href="https://api.whatsapp.com/send?phone=+6281286882806">
+                        <button>
+                            ORDER SEKARANG
+                        </button>
+                     </a>
+                </div>
+
+                <div class="grid">
+                    <img src="/src/menu-3.jpg" alt="">
+                    <a href="https://api.whatsapp.com/send?phone=+6281286882806">
+                        <button>
+                            ORDER SEKARANG
+                        </button>
+                     </a>
+                </div>
+
+                <div class="grid">
+                    <img src="/src/menu-4.jpg" alt="">
+                    <a href="https://api.whatsapp.com/send?phone=+6281286882806">
+                        <button>
+                            ORDER SEKARANG
+                        </button>
+                     </a>
+                </div>
+
+                <div class="grid">
+                    <img src="/src/menu-5.jpg" alt="">
+                    <a href="https://api.whatsapp.com/send?phone=+6281286882806">
+                        <button>
+                            ORDER SEKARANG
+                        </button>
+                     </a>
+                </div>
+
+                <div class="grid">
+                    <img src="/src/menu-6.jpg" alt="">
+                    <a href="https://api.whatsapp.com/send?phone=+6281286882806">
+                        <button>
+                            ORDER SEKARANG
+                        </button>
+                     </a>
+                </div>
+            </div>
+            <div class="table-container">
+                <table>
+                    <tr>
+                        <th rowspan="2">TIPE</th>
+                        <th colspan="2">HARGA DOMBA/KAMBING MASAK</th>
+                        <th colspan="2">HASIL MENU</th>
+                    </tr>
+                    <tr>
+                        <th>BETINA</th>
+                        <th>JANTAN</th>
+                        <th>SATE</th>
+                        <th>GULE</th>
+                    </tr>
+                    <tr>
+                        <th class="rata-kiri">HEMAT</th>
+                        <td>Rp. 1.300.000</td>
+                        <td>Rp. 1.600.000</td>
+                        <td>150 Tusuk</td>
+                        <td>50 Porsi</td>
+                    </tr>
+                    <tr>
+                        <th class="rata-kiri">REGULER</th>
+                        <td>Rp. 1.600.000</td>
+                        <td>Rp. 1.900.000</td>
+                        <td>225 Tusuk</td>
+                        <td>75 Porsi</td>
+                    </tr>
+                    <tr>
+                        <th class="rata-kiri">SUPER</th>
+                        <td>Rp. 1.900.000</td>
+                        <td>Rp. 2.200.000</td>
+                        <td>300  Tusuk</td>
+                        <td>100 Porsi</td>
+                    </tr>
+                    <tr>
+                        <th class="rata-kiri">ISTIMEWA</th>
+                        <td>Rp. 2.200.000</td>
+                        <td>Rp. 2.500.000</td>
+                        <td>375 Tusuk</td>
+                        <td>125 Porsi</td>
+                    </tr>
+                </table>
+                <p>Menu boleh diganti dengan  <br>
+                Sate : Rendang/Semur/Rica Rica/Teriyaki/Asem Asem <br>
+                Gule : Tongseng/Sop</p>
+            </div>
+        </section>
+        <footer>
+            <img class="dot-1" src="/src/dot-gray.png" alt="">
+            <img class="dot-2" src="/src/dot-gray.png" alt="">
+            <div class="shape-1"></div>
+            <div class="shape-2"></div>
+            <div class="shape-3"></div>
+            <div class="content">
+                <h1>
+                    Pesan Sekarang Yuk!
+                </h1>
+                <a href="https://api.whatsapp.com/send?phone=+6281286882806">
+                <button>
+                    Kontak Sekarang
+                </button>
+                </a>
+
+                <p>Kenal Lebih Dalam</p>
+                <div class="social">
+                    <a href="https://web.facebook.com/restuaqiqah/?_rdc=1&_rdr"><img src="/src/fb.png" alt=""></a>
+                    <a href="https://api.whatsapp.com/send?phone=+6281286882806"><img src="/src/wa.png" alt=""></a>
+                    <a href="https://www.instagram.com/restuaqiqah/?hl=id"><img src="/src/ins.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script>
+        window.addEventListener("scroll", function(){
+            var nav = document.querySelector("nav")
+            const logo = document.createElement("img")
+            logo.setAttribute("src", "/src/logo.png")
+            logo.classList.add("nav-logo")
+            nav.classList.toggle("sticky", window.scrollY > 100)
+        
+        })
+    </script>
+</body>
+</html>
