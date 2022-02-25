@@ -29,6 +29,7 @@ html {
 
 *{
     margin: 0;
+    user-select: none;
 }
 main{
     overflow-x: hidden;
@@ -741,7 +742,21 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
+.menu-wrapper{
+    margin: 4vw 0;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    overflow-x: scroll;
+    gap: 5.0vw;
+    padding: 20px 40px;
+    scroll-behavior: smooth;
+}
 
+.menu-wrapper img{
+    height: auto;
+    width: 22vw;
+}
 .sixth-section .testimoni-wrapper{
     margin: 5.5vw 0;
     position: relative;
